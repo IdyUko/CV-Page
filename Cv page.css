@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#212153, #d3d0e9 );
+    
+}
+.Header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; 
+    background: transparent; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;; 
+}
+.Headerwrapper{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+.LeftNav{
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: chartreuse; */
+}
+Span{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Resumebutton{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navwrap{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Rightnav{
+    width: 220px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: chartreuse; */
+}
+.Resume{
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Hero{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Heroleft{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /* background-color: coral; */
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: white;
+}
+h3{
+    margin-bottom: 30px;
+    color: white;
+}
+.Bottomdiv{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h5{
+    margin-top: 10px;
+    color: white;
+}
+.Button{
+    width: 120px;
+    height: 35px;   
+    padding: 0.5rem;
+    border-radius: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(223, 39, 131);
+}
+.Heroimage-hold{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: brown; */
+}
+img{
+    width: 200%;
+    height: 100%;
+}
